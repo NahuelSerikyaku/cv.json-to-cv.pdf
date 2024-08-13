@@ -1,21 +1,35 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
+import Hero from '../components/sections/Hero.astro';
+import About from '../components/sections/About.astro';
+import Experience from '../components/sections/Experience.astro';
+import Skills from '../components/sections/Skills.astro';
+import Education from '../components/sections/Education.astro';
+import Footer from '../components/sections/Footer.astro';
+import Projects from '../components/sections/Projects.astro';
 ---
 
 <Layout title="Cv.json to cv.pdf">
 	<main>
-		<header>
-			<h1>Nahuel Ezequiel Serikyaku</h1>
-		</header>
+		<Hero/>
+		<About/>
+		<Experience/>
+		<Skills/>
+		<Projects/>
+		<Education/>
+		<Footer/>
 	</main>
 </Layout>
 
 <style>
 	main {
+		display: flex;
+		flex-direction: column;
+		gap: 3rem;
+		
 		width: 210mm;
 		height: 100vh;
-		margin: 1rem auto;
+		margin: 0 auto;
 		background-color: white; 
 		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 		padding: 20mm;
