@@ -1,19 +1,50 @@
 ---
-import { basics } from "../../utils/cv.json";
-import Section from "../Section.astro"
+import { work } from "@/data/cv.json";
+import Section from "@/components/Section.astro"
 
-const {summary} = basics;
 ---
 
 <Section title="Work Experience">
-    <article>
-        <header>
-            <div class="titleExperience">
-                <h3>fa</h3>
-                <span></span>
-            </div>
-            <h4>fsafas</h4>
-        </header>
-        <p><summary></summary></p>
-    </article>
+    <div class="work-experience-list">
+        {work.map(({name, position, summary, startDate, endDate})=>
+            <article>
+                <header class="header-experience">
+                    <h3>{name}</h3>
+                    <span>{startDate}{endDate ? ` - ${endDate}` : " - Present"}</span>
+                </header>
+                <h4>{position}</h4>
+                <p>{summary}</p>
+            </article>
+        )}
+    </div>
 </Section>
+
+<style>
+    .work-experience-list{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    article{
+        display: flex;
+        flex-direction: column;
+        gap: .3rem; 
+    }
+
+    .header-experience{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    h3{
+        color: #2f2f2f;
+        font-size: 1.15rem;
+    }
+
+    h4 {
+        color: #464646;
+        font-weight: 600;
+        font-size: .95rem;
+    }
+</style>
