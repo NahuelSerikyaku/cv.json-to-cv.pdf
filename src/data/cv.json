@@ -30,9 +30,9 @@
     "work": [
         {
             "name": "OSDE",
-            "position": "Frontend Developer",
+            "position": "FrontEnd Developer",
             "url": "https://cvprest.osde.com.ar/",
-            "startDate": "2023-09-01",
+            "startDate": "09.2023",
             "endDate": null,
             "summary": "Desarrollé y mantuve desde la consultora IT Patagonia para el proyecto CV Prestadores OSDE.",
             "highlights": [
@@ -43,7 +43,7 @@
             "name": "IT Patagonia",
             "position": "Full Stack Developer",
             "url": "https://twitch.tv/midudev",
-            "startDate": "2023-04-01",
+            "startDate": "04.2023",
             "endDate": null,
             "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
             "highlights": [
@@ -53,8 +53,8 @@
         {
             "name": "Hubii",
             "position": "Senior FrontEnd Developer",
-            "startDate": "2011-03-01",
-            "endDate": "2016-05-01",
+            "startDate": "03.2011",
+            "endDate": "06.2016",
             "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
             "highlights": [
                 "Started the company"
@@ -76,16 +76,22 @@
     ],
     "education": [
         {
-            "institution": "Universitat Oberta de Catalunya",
+            "studyType": "Self-Taught",
+            "institution": "Udemy Courses & Self-Taught Education",
+            "description": "Playground de código HTML, CSS y JavaScript para compartir", 
             "url": "https://www.uoc.edu/portal/es/index.html",
-            "area": "Ingeniero de Software",
-            "studyType": "Bachelor",
-            "startDate": "2003-01-01",
-            "endDate": "2009-01-01",
-            "score": "4.0",
-            "courses": [
-                "DB1101 - Basic SQL"
-            ]
+            "area": "Frontend Developer",
+            "startDate": "06.2022",
+            "endDate": "present"
+        },
+        {
+            "studyType": "High School",
+            "institution": "Instituto de Educación Integral de Munro",
+            "description": "Playground de código HTML, CSS y JavaScript para compartir",
+            "url": "https://www.uoc.edu/portal/es/index.html",
+            "area": "Bachiller",
+            "startDate": "3.2017",
+            "endDate": "12.2021"
         }
     ],
     "awards": [
@@ -229,7 +235,7 @@
         },
         {
             "language": "English",
-            "fluency": "B2"
+            "fluency": "B1 - B2"
         }
     ],
     "interests": [

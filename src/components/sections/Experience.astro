@@ -1,11 +1,12 @@
 ---
 import { work } from "@/data/cv.json";
 import Section from "@/components/Section.astro"
+import List from "@/components/List.astro"
 
 ---
 
 <Section title="Work Experience">
-    <div class="work-experience-list">
+    <List>
         {work.map(({name, position, summary, startDate, endDate})=>
             <article>
                 <header class="header-experience">
@@ -16,15 +17,10 @@ import Section from "@/components/Section.astro"
                 <p>{summary}</p>
             </article>
         )}
-    </div>
+    </List>
 </Section>
 
 <style>
-    .work-experience-list{
-        display: flex;
-        flex-direction: column;
-        gap: 1.5rem;
-    }
     article{
         display: flex;
         flex-direction: column;

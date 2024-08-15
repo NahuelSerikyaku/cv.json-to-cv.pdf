@@ -1,0 +1,78 @@
+---
+import { education, languages } from "@/data/cv.json";
+import Section from "@/components/Section.astro"
+import List from "@/components/List.astro"
+
+---
+
+<Section title="Education">
+    <List>
+        {education.map(({studyType, startDate, endDate, institution, description})=>
+            <article>
+                <header class="header-experience">
+                    <h3>{studyType}</h3>
+                    <span>{startDate}{endDate ? ` - ${endDate}` : " - Present"}</span>
+                </header>
+                <h4>{institution}</h4>
+                <p>{description}</p>
+            </article>
+        )}
+        <ul>
+            {languages.map(({language, fluency})=>
+                <li>
+                    {/* <header class="header-experience">
+                        <h3>{language}</h3>
+                    </header> */}
+                    <h4>{language}</h4>
+                    <p>{fluency}</p>
+                </li>
+            )}
+        </ul>
+    </List>
+</Section>
+
+
+<style>
+    
+    article{
+        display: flex;
+        flex-direction: column;
+        gap: .3rem; 
+    }
+
+    .header-experience{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+
+    ul > li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #777;
+        border: 1px solid #e6e6e6;
+        padding: 4px;
+        width: 125px;
+        border-radius: 6px;
+    }
+
+    h3{
+        color: #2f2f2f;
+        font-size: 1.15rem;
+    }
+
+    h4 {
+        color: #464646;
+        font-weight: 600;
+        font-size: .95rem;
+    }
+</style>
