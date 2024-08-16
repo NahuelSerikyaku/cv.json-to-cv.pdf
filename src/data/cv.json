@@ -1,7 +1,7 @@
 {
     "basics": {
         "name": "Nahuel Ezequiel Serikyaku",
-        "label": "Semi Senior Full Stack Developer",
+        "label": "Semi Senior FrontEnd Developer with BackEnd knowledge",
         "image": "https://avatars.githubusercontent.com/u/117936053?v=4",
         "email": "nahue.seri@gmail.com",
         "phone": "+54 1136371076",
@@ -121,25 +121,8 @@
     ],
     "skills": [
         {
-            "name": "HTML",
-            "level": "Master",
-            "keywords": [
-                "Desarrollo Web",
-                "Frontend"
-            ]
-        },
-        {
-            "name": "CSS",
-            "level": "Master",
-            "keywords": [
-                "Desarrollo Web",
-                "Frontend",
-                "Diseño Responsive"
-            ]
-        },
-        {
             "name": "JavaScript",
-            "level": "Master",
+            "level": 3,      
             "keywords": [
                 "Desarrollo Web",
                 "Frontend",
@@ -148,18 +131,8 @@
             ]
         },
         {
-            "name": "Tailwind",
-            "level": "Avanzado",
-            "keywords": [
-                "Desarrollo Web",
-                "Frontend",
-                "CSS Framework",
-                "Diseño Responsive"
-            ]
-        },
-        {
             "name": "TypeScript",
-            "level": "Avanzado",
+            "level": 3,
             "keywords": [
                 "Desarrollo Web",
                 "Frontend",
@@ -168,47 +141,18 @@
             ]
         },
         {
-            "name": "Node",
-            "level": "Avanzado",
+            "name": "React",
+            "level": 3,
             "keywords": [
                 "Desarrollo Web",
-                "Backend",
-                "JavaScript",
-                "Servidor"
-            ]
-        },
-        {
-            "name": "MySQL",
-            "level": "Avanzado",
-            "keywords": [
-                "Bases de Datos",
-                "SQL",
-                "Almacenamiento de Datos",
-                "Backend"
-            ]
-        },
-        {
-            "name": "Git",
-            "level": "Avanzado",
-            "keywords": [
-                "Control de Versiones",
-                "Colaboración",
-                "Código Fuente"
-            ]
-        },
-        {
-            "name": "GitHub",
-            "level": "Avanzado",
-            "keywords": [
-                "Control de Versiones",
-                "Colaboración",
-                "Código Fuente",
-                "Git"
+                "Frontend",
+                "JavaScript Library",
+                "UI"
             ]
         },
         {
             "name": "Next.js",
-            "level": "Avanzado",
+            "level": 2,
             "keywords": [
                 "Desarrollo Web",
                 "Frontend",
@@ -218,13 +162,95 @@
             ]
         },
         {
-            "name": "React",
-            "level": "Avanzado",
+            "name": "Astro",
+            "level": 2,      
+            "keywords": [
+                "Desarrollo Web",
+                "Frontend"
+            ]
+        },
+        {
+            "name": "HTML / CSS",
+            "level": 3,       
             "keywords": [
                 "Desarrollo Web",
                 "Frontend",
-                "JavaScript Library",
-                "UI"
+                "Diseño Responsive"
+            ]
+        },
+        {
+            "name": "MaterialUI",
+            "level": 2,
+            "keywords": [
+                "Desarrollo Web",
+                "Frontend",
+                "CSS Framework",
+                "Diseño Responsive"
+            ]
+        },
+        {
+            "name": "FrontEnd Architectures",
+            "level": 1,      
+            "keywords": [
+                "Desarrollo Web",
+                "Frontend"
+            ]
+        },
+        {
+            "name": "Clean Architecture",
+            "level": 1,      
+            "keywords": [
+                "Desarrollo Web",
+                "Frontend"
+            ]
+        },
+        {
+            "name": "Go",
+            "level": 1,        
+            "keywords": [
+                "Desarrollo Web",
+                "Backend",
+                "JavaScript",
+                "Servidor"
+            ]
+        },
+        {
+            "name": "Python",
+            "level": 1,
+            "keywords": [
+                "Desarrollo Web",
+                "Backend",
+                "JavaScript",
+                "Servidor"
+            ]
+        },
+        {
+            "name": "MySQL",
+            "level": 2,
+            "keywords": [
+                "Bases de Datos",
+                "SQL",
+                "Almacenamiento de Datos",
+                "Backend"
+            ]
+        },
+        {
+            "name": "MongoDB",
+            "level": 2,
+            "keywords": [
+                "Control de Versiones",
+                "Colaboración",
+                "Código Fuente"
+            ]
+        },
+        {
+            "name": "Git",
+            "level": 3,
+            "keywords": [
+                "Control de Versiones",
+                "Colaboración",
+                "Código Fuente",
+                "Git"
             ]
         }
     ],

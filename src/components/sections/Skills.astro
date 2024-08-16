@@ -1,12 +1,69 @@
 ---
-import { basics } from "@/data/cv.json";
+import { skills } from "@/data/cv.json";
 import Section from "@/components/Section.astro"
-
-const {summary} = basics;
 ---
 
-<Section title="About">
-    <article>
-        <p>{summary}</p>
-    </article>
+<Section title="Skills">
+    <ul>
+        {skills.map(({name, level})=>
+            <li>
+                <span class="skill-name">{name}</span>
+                <span 
+                    class={`level-symbol level-${level}`}
+                    aria-label={
+                        level === 1 ? "Basic" :
+                        level === 2 ? "Intermediate" :
+                        "Advanced"
+                    }
+                >
+                    {level === 1 && "<"}
+                    {level === 2 && "-"}
+                    {level === 3 && ">"}
+                </span>
+            </li>
+        )}
+    </ul>
 </Section>
+
+<style>
+    ul {
+        display: flex;
+        flex-direction: row;
+        gap: .3rem;
+        flex-wrap: wrap;
+    }
+    li {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: .4rem;
+        font-size: .8rem;
+        background-color: #2b2b2b;
+        border: 1px solid #e6e6e6;
+        padding: 1px 8px;
+        width: max-content;
+        border-radius: 6px;
+    }
+    .skill-name {
+        color: #d6d6d6;
+    }
+    .level-symbol {
+        text-align: center;
+        font-size: .75rem;
+        font-weight: 300;
+    }
+    .level-1 {
+        color: #A8D5BA;
+        transform: rotate(-90deg);
+    }
+
+    .level-2 {
+        color: #F9E79F;
+    }
+
+    .level-3 {
+        color: #EC7063;
+        transform: rotate(-90deg);
+    }
+</style>
