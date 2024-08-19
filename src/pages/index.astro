@@ -1,38 +1,52 @@
 ---
-import Layout from '@/layouts/Layout.astro';
-import Hero from '@/components/sections/Hero.astro';
-import About from '@/components/sections/About.astro';
-import Experience from '@/components/sections/Experience.astro';
-import Skills from '@/components/sections/Skills.astro';
-import Education from '@/components/sections/Education.astro';
-import Footer from '@/components/sections/Footer.astro';
-import Projects from '@/components/sections/Projects.astro';
+import Layout from "@/layouts/Layout.astro";
+import Hero from "@/components/sections/Hero.astro";
+import About from "@/components/sections/About.astro";
+import Experience from "@/components/sections/Experience.astro";
+import Skills from "@/components/sections/Skills.astro";
+import Education from "@/components/sections/Education.astro";
+import Footer from "@/components/sections/Footer.astro";
+import Projects from "@/components/sections/Projects.astro";
 ---
 
 <Layout title="Cv.json to Cv.pdf">
-	<main>
-		<Hero/>
-		<About/>
-		<Experience/>
-		<Education/>
-		<Skills/>
-		<Projects/>
-		<Footer/>
+	<main class="print">
+		<Hero />
+		<About />
+		<Experience />
+		<Education />
+		<Skills />
+		<Projects />
 	</main>
+	<Footer />
 </Layout>
 
 <style>
 	main {
 		display: flex;
 		flex-direction: column;
-		gap: 2.5rem;
-		
-		width: 210mm;
+		gap: 3rem;
+		align-items: center;
+
+		width: clamp(150mm, 85vw, 210mm);
 		height: 100%;
-		margin: 0 auto;
-		background-color: white; 
-		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		margin: 1rem auto;
+		background-color: white;
+		box-shadow: 0 0 16px rgba(0, 0, 0, 0.348);
 		padding: 20mm;
 	}
 
+	@media print {
+		main {
+			box-shadow: none;
+			margin: 0;
+			padding: 0;
+			width: 210mm;
+		}
+	}
+	@media (width <= 992px) {
+		main {
+			margin: 0 auto;
+		}
+	}
 </style>

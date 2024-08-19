@@ -1,0 +1,89 @@
+---
+import { projects } from "@/data/cv.json";
+import Section from "@/components/Section.astro"
+
+---
+
+<Section title="Projects">
+    <ul>
+        {projects.map(({name, description, firstDeploy, highlights})=>
+            <li>
+                <article>
+                    <header class="header-experience">
+                        <div class="container-title">
+                            <h3>{name}</h3>
+                            <span class="span-first_deploy">{firstDeploy}</span>
+                        </div>
+                        <p>{description}</p>
+                    </header>
+                    <footer>
+                        {highlights.map((highlight)=>
+                            <span>{highlight}</span>
+                        )}
+                    </footer>
+                </article>
+            </li>
+        )}
+    </ul>
+</Section>
+
+<style>
+    ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+    }
+    li {
+        flex-basis: 18rem;
+        height: 200px;
+    }
+    article{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        color: #777;
+        border: 1px solid #e6e6e6;
+        padding: 12px;
+        border-radius: 6px;
+        height: 100%;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        gap: .2rem;
+    }
+    header > p {
+        font-size: .75rem;
+    }
+    .container-title{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .container-title > span{
+        font-size: .74rem;
+        line-height: 34%;
+    }
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        gap: .5rem;
+    }
+    footer > span {
+        font-size: .65rem;
+        border: 1px solid #e6e6e6;
+        padding: 1px 6px;
+        border-radius: 6px;
+    }
+    h3{
+        color: #2f2f2f;
+        font-size: 1.15rem;
+    }
+    .span-first_deploy {
+        line-height: 1.5;
+    }
+</style>

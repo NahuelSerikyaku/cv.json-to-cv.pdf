@@ -5,8 +5,8 @@
         "image": "https://avatars.githubusercontent.com/u/117936053?v=4",
         "email": "nahue.seri@gmail.com",
         "phone": "+54 1136371076",
-        "url": "https://midu.dev",
-        "summary": "+15 años de experiencia como Desarrollador Web. Actualmente soy Creador de Contenido y Divulgador sobre Programación. Vivo en Barcelona, España. He trabajado en diferentes entornos: desde acelerar el desarrollo de start-ups hasta liderando equipos de empresas multinacionales.",
+        "url": "",
+        "summary": "I have over 2 years of experience as a Web Developer. During this time, I've learned to be patient and more perfectionist, focusing on best practices and keeping my code organized. At the same time, I've become more efficient and practical in meeting deadlines and achieving objectives.\nMy journey into programming started from my hardware knowledge and my creative passion for making realistic drawings,  which continues to influence my work today.",
         "location": {
             "address": "",
             "postalCode": "08820",
@@ -31,10 +31,10 @@
         {
             "name": "OSDE",
             "position": "FrontEnd Developer",
-            "url": "https://cvprest.osde.com.ar/",
+            "url": "",
             "startDate": "09.2023",
             "endDate": null,
-            "summary": "Desarrollé y mantuve desde la consultora IT Patagonia para el proyecto CV Prestadores OSDE.",
+            "summary": "At the consulting firm \"IT Patagonia\", I developed and maintained for the project \"CV Prestadores\".",
             "highlights": [
                 "Started the company"
             ]
@@ -42,20 +42,20 @@
         {
             "name": "IT Patagonia",
             "position": "Full Stack Developer",
-            "url": "https://twitch.tv/midudev",
+            "url": "",
             "startDate": "04.2023",
             "endDate": null,
-            "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
+            "summary": "Developed and maintained Frontend and Backend applications. I've learned organization and work structure with methodologies such as scrum with sprints.",
             "highlights": [
-                "Started the company"
+                ""
             ]
-        },
-        {
-            "name": "Hubii",
-            "position": "Senior FrontEnd Developer",
-            "startDate": "03.2011",
-            "endDate": "06.2016",
-            "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
+        },        {
+            "name": "Independent Professional",
+            "position": "Computer Technician",
+            "url": "",
+            "startDate": "11.2018",
+            "endDate": null,
+            "summary": "I solved hardware issues and assembled computers.",
             "highlights": [
                 "Started the company"
             ]
@@ -76,9 +76,9 @@
     ],
     "education": [
         {
-            "studyType": "Self-Taught",
+            "studyType": "Self-Taught in Programming",
             "institution": "Udemy Courses & Self-Taught Education",
-            "description": "Playground de código HTML, CSS y JavaScript para compartir", 
+            "description": "I read documentation and blogs, watched courses and videos, and talked to experienced professionals.", 
             "url": "https://www.uoc.edu/portal/es/index.html",
             "area": "Frontend Developer",
             "startDate": "06.2022",
@@ -87,7 +87,7 @@
         {
             "studyType": "High School",
             "institution": "Instituto de Educación Integral de Munro",
-            "description": "Playground de código HTML, CSS y JavaScript para compartir",
+            "description": "High School with knowledge of economics",
             "url": "https://www.uoc.edu/portal/es/index.html",
             "area": "Bachiller",
             "startDate": "3.2017",
@@ -281,66 +281,57 @@
     ],
     "projects": [
         {
-            "name": "mars.codes",
+            "name": "Cv.json to Cv.pdf",
+            "firstDeploy": "08.2024",
             "isActive": true,
-            "description": "Historia interactiva con retos de programación para viajar a Marte",
+            "description": "An efficient way to update your resume information, without messing up the design, and modifying a single file.",
             "highlights": [
-                "Elige tu propia aventura",
-                "En desarrollo"
+                "Static Site Generation",
+                "Astro",
+                "TypeScript"
             ],
             "url": "https://mars.codes"
         },
         {
-            "name": "AdventJS",
+            "name": "CV Prestadores OSDE",
+            "firstDeploy": "02.2024",
             "isActive": true,
-            "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
+            "description": "An application to apply as an OSDE professional. Made by the consultancy 'IT Patagonia'",
             "highlights": [
-                "+1 millón de visitas",
-                "Multidioma",
-                "JavaScript & TypeScript"
+                "NextJS",
+                "TypeScript",
+                "MaterialUI",
+                "Firebase",
+                "Responsive design"
             ],
-            "url": "https://adventjs.dev"
+            "url": "https://cvprest.osde.com.ar"
         },
         {
-            "name": "Codember",
+            "name": "Portal de Novedades",
+            "firstDeploy": "09.2023",
             "isActive": true,
-            "description": "Juego interactivo de programación con retos y secretos",
+            "description": "an internal IT Patagonia application to upload your licenses and other administrative uses",
             "highlights": [
-                "+2000 usuarios activos",
-                "Retos para cualquier lenguaje"
+                "ReactJS",
+                "PrimeReact",
+                "Go",
+                "Python",
+                "MongoDB"
             ],
-            "url": "https://codember.dev"
+            "url": "https://portal.itpatagonia.com"
         },
         {
-            "name": "codi.link",
+            "name": "Climóstico",
+            "firstDeploy": "01.2023",
             "isActive": true,
-            "description": "Playground de código HTML, CSS y JavaScript para compartir",
+            "description": "My first api application to know the weather with responsive design.",
             "highlights": [
-                "100k visitas al mes",
-                "Desarrollado por la comunidad"
+                "SPA",
+                "ReactJS",
+                "Responsive design"
             ],
-            "url": "https://codi.link",
+            "url": "https://climostico-app.web.app",
             "github": "https://github.com/midudev/codi.link"
-        },
-        {
-            "name": "Pruebas Técnicas",
-            "isActive": true,
-            "description": "Lista de pruebas técnicas de empresas para practicar programación",
-            "highlights": [
-                "100% gratuito",
-                "+500 soluciones de la comunidad"
-            ],
-            "url": "https://pruebastecnicas.com",
-            "github": "https://github.com/midudev/pruebas-tecnicas"
-        },
-        {
-            "name": "miduConf",
-            "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-            "highlights": [
-                "+15k tickets repartidos",
-                "+50k espectadores en directo"
-            ],
-            "url": "https://miduconf.com"
         }
     ]
 }
