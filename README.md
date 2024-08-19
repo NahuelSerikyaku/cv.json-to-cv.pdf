@@ -8,7 +8,7 @@ Scheme of the cv.json from [jsonresume.org](https://jsonresume.org/schema)
 
 Based on the design of [Bartosz Jarocki](https://github.com/BartoszJarocki/cv)
 
-![cv.json-to-cv](/frontPage.png)
+![cv.json-to-cv](public/images/frontPage.jpg)
 
 
 # 🚀 Getting Started
