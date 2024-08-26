@@ -9,7 +9,7 @@
         "summary": "I have over 2 years of experience as a Web Developer. During this time, I've learned to be patient and more perfectionist, focusing on best practices and keeping my code organized. At the same time, I've become more efficient and practical in meeting deadlines and achieving objectives.\nMy journey into programming started from my hardware knowledge and my creative passion for making realistic drawings,  which continues to influence my work today.",
         "location": {
             "address": "",
-            "postalCode": "08820",
+            "postalCode": "",
             "city": "Buenos Aires",
             "countryCode": "AR",
             "region": "Argentina"
@@ -290,7 +290,7 @@
                 "Astro",
                 "TypeScript"
             ],
-            "url": "https://mars.codes"
+            "url": "https://cv-json-to-cv-pdf.vercel.app/"
         },
         {
             "name": "CV Prestadores OSDE",
@@ -330,8 +330,7 @@
                 "ReactJS",
                 "Responsive design"
             ],
-            "url": "https://climostico-app.web.app",
-            "github": "https://github.com/midudev/codi.link"
+            "url": "https://climostico-app.web.app"
         }
     ]
 }
