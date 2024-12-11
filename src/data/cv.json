@@ -49,7 +49,8 @@
             "highlights": [
                 ""
             ]
-        },        {
+        },     
+        {
             "name": "Independent Professional",
             "position": "Computer Technician",
             "url": "",
@@ -59,7 +60,7 @@
             "highlights": [
                 "Started the company"
             ]
-        }
+        },
     ],
     "volunteer": [
         {
@@ -83,7 +84,7 @@
             "area": "Degree",
             "startDate": "9.2024",
             "endDate": "present"
-        }
+        },
         {
             "studyType": "Self-Taught in Programming",
             "institution": "Udemy Courses & Self-Taught Education",
