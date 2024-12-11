@@ -6,7 +6,7 @@
         "email": "nahue.seri@gmail.com",
         "phone": "+54 1136371076",
         "url": "",
-        "summary": "I have over 2 years of experience as a Web Developer. During this time, I've learned to be patient and more perfectionist, focusing on best practices and keeping my code organized. At the same time, I've become more efficient and practical in meeting deadlines and achieving objectives.\nMy journey into programming started from my hardware knowledge and my creative passion for making realistic drawings,  which continues to influence my work today.",
+        "summary": "I have over two years of experience as a Web Developer. During this time, I have consistently improved my skills by focusing on best practices and maintaining well-organized code. I have also become more efficient and practical in meeting deadlines and achieving goals. Recently, I have taken on the role of mentoring a trainee developer who recently joined our team.",
         "location": {
             "address": "",
             "postalCode": "",
@@ -76,6 +76,15 @@
     ],
     "education": [
         {
+            "studyType": "University Programming Degree",
+            "institution": "Universidad Tecnológica Nacional (UTN)",
+            "description": "University degree in programming",
+            "url": "https://www.uoc.edu/portal/es/index.html",
+            "area": "Degree",
+            "startDate": "9.2024",
+            "endDate": "present"
+        }
+        {
             "studyType": "Self-Taught in Programming",
             "institution": "Udemy Courses & Self-Taught Education",
             "description": "I read documentation and blogs, watched courses and videos, and talked to experienced professionals.", 
@@ -84,15 +93,6 @@
             "startDate": "06.2022",
             "endDate": "present"
         },
-        {
-            "studyType": "High School",
-            "institution": "Instituto de Educación Integral de Munro",
-            "description": "High School with knowledge of economics",
-            "url": "https://www.uoc.edu/portal/es/index.html",
-            "area": "Bachiller",
-            "startDate": "3.2017",
-            "endDate": "12.2021"
-        }
     ],
     "awards": [
         {
