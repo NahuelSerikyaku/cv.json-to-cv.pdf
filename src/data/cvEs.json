@@ -1,12 +1,12 @@
 {
     "basics": {
         "name": "Nahuel Ezequiel Serikyaku",
-        "label": "Semi Senior FrontEnd Developer with BackEnd knowledge",
+        "label": "Desarrollador FrontEnd Semi Senior con conocimiento BackEnd",
         "image": "https://avatars.githubusercontent.com/u/117936053?v=4",
         "email": "nahue.seri@gmail.com",
         "phone": "+54 1136371076",
         "url": "",
-        "summary": "I have over two years of experience as a Web Developer. During this time, I have consistently improved my skills by focusing on best practices and maintaining well-organized code. I have also become more efficient and practical in meeting deadlines and achieving goals. Recently, I have taken on the role of mentoring a trainee developer who recently joined our team.",
+        "summary": "Tengo más de dos años de experiencia en Desarrollo Web. Recientemente, he asumido el rol de mentor de un desarrollador en formación, guiándolo en su proceso de aprendizaje e integración al equipo. Durante este tiempo, he mejorado constantemente mis habilidades, enfocándome en las mejores prácticas y manteniendo un código bien organizado. También me he vuelto más eficiente y práctico para cumplir con los plazos y alcanzar objetivos.",
         "location": {
             "address": "",
             "postalCode": "",
@@ -30,33 +30,33 @@
     "work": [
         {
             "name": "OSDE",
-            "position": "FrontEnd Developer",
+            "position": "Desarrollador FrontEnd",
             "url": "",
             "startDate": "09.2023",
-            "endDate": null,
-            "summary": "At the consulting firm \"IT Patagonia\", I developed and maintained for the project \"CV Prestadores\".",
+            "endDate": "Actualidad",
+            "summary": "Desde la consultora \"IT Patagonia\", desarrollé y mantuve el proyecto \"CV Prestadores\", ademas lideré el equipo de FrontEnd del proyecto \"CV Prestadores Admín\"",
             "highlights": [
                 "Started the company"
             ]
         },
         {
             "name": "IT Patagonia",
-            "position": "Full Stack Developer",
+            "position": "Desarrollador Full Stack",
             "url": "",
             "startDate": "04.2023",
-            "endDate": null,
-            "summary": "Developed and maintained Frontend and Backend applications. I've learned organization and work structure with methodologies such as scrum with sprints.",
+            "endDate": "Actualidad",
+            "summary": "Desarrollé y mantuve aplicaciones FrontEnd y BackEnd. He aprendido organización y estructuras de trabajo con metodologías agiles como Scrum.",
             "highlights": [
                 ""
             ]
         },     
         {
-            "name": "Independent Professional",
-            "position": "Computer Technician",
+            "name": "Profesional Independiente",
+            "position": "Técnico de Computación",
             "url": "",
             "startDate": "11.2018",
-            "endDate": null,
-            "summary": "I solved hardware issues and assembled computers.",
+            "endDate": "Actualidad",
+            "summary": "Resolví problemas de Hardware y ensamblé computadoras.",
             "highlights": [
                 "Started the company"
             ]
@@ -77,22 +77,22 @@
     ],
     "education": [
         {
-            "studyType": "University Programming Degree",
+            "studyType": "Tecnicatura Universitaria en Programación",
             "institution": "Universidad Tecnológica Nacional (UTN)",
-            "description": "University degree in programming",
+            "description": "Tecnicatura Universitaria en Programación",
             "url": "https://www.uoc.edu/portal/es/index.html",
             "area": "Degree",
             "startDate": "9.2024",
-            "endDate": "present"
+            "endDate": "Actualidad"
         },
         {
-            "studyType": "Self-Taught in Programming",
-            "institution": "Udemy Courses & Self-Taught Education",
-            "description": "I read documentation and blogs, watched courses and videos, and talked to experienced professionals.", 
+            "studyType": "Programación Autodidacta",
+            "institution": "Cursos Udemy & Educación Autodidacta",
+            "description": "Leí documentación y blogs, vi cursos y videos y hablé con profesionales experimentados.", 
             "url": "https://www.uoc.edu/portal/es/index.html",
             "area": "Frontend Developer",
             "startDate": "06.2022",
-            "endDate": "present"
+            "endDate": "Actualidad"
         }
     ],
     "awards": [
@@ -162,7 +162,7 @@
         },
         {
             "name": "Next.js",
-            "level": 2,
+            "level": 3,
             "keywords": [
                 "Desarrollo Web",
                 "Frontend",
@@ -266,11 +266,11 @@
     ],
     "languages": [
         {
-            "language": "Spanish",
-            "fluency": "Native speaker"
+            "language": "Español",
+            "fluency": "Nativo"
         },
         {
-            "language": "English",
+            "language": "Inglés",
             "fluency": "B1 - B2"
         }
     ],
@@ -294,7 +294,7 @@
             "name": "Cv.json to Cv.pdf",
             "firstDeploy": "08.2024",
             "isActive": true,
-            "description": "An efficient way to update your resume information, without messing up the design, and modifying a single file.",
+            "description": "Una manera eficiente de actualizar la información de tu currículum, sin estropear el diseño y modificando un solo archivo.",
             "highlights": [
                 "Static Site Generation",
                 "Astro",
@@ -306,7 +306,7 @@
             "name": "CV Prestadores OSDE",
             "firstDeploy": "02.2024",
             "isActive": true,
-            "description": "An application to apply as an OSDE professional. Made by the consultancy 'IT Patagonia'",
+            "description": "Una aplicación para postularse como profesional de OSDE. Realizada por la consultora 'IT Patagonia'",
             "highlights": [
                 "NextJS",
                 "TypeScript",
@@ -320,7 +320,7 @@
             "name": "Portal de Novedades",
             "firstDeploy": "09.2023",
             "isActive": true,
-            "description": "an internal IT Patagonia application to upload your licenses and other administrative uses",
+            "description": "Una aplicación interna de IT Patagonia para cargar tus licencias y otros usos administrativos",
             "highlights": [
                 "ReactJS",
                 "PrimeReact",
@@ -334,7 +334,7 @@
             "name": "Climóstico",
             "firstDeploy": "01.2023",
             "isActive": true,
-            "description": "My first api application to know the weather with responsive design.",
+            "description": "Mi primera aplicación API para conocer el clima con diseño responsivo.",
             "highlights": [
                 "SPA",
                 "ReactJS",
